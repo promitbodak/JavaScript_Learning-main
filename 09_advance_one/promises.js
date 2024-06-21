@@ -125,7 +125,7 @@ async function consumePromiseFive(){
 
 //getAllUsers()
 
-fetch('https://api.github.com/users/hiteshchoudhary')
+fetch('https://api.github.com/users/hiteshchoudhary')    // FETCH  ke bare main MDN se aur padhai karoo
 .then((response) => {
     return response.json()
 })
